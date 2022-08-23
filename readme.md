@@ -133,6 +133,7 @@
 ### 도커 컨테이너 지원 서비스이다.
 ### ECS 는 도커 컨테이너를 직접 실행하는 것이고, 각각의 컨테이너를 수동으로 관리해주는 것이다.
 ### EKS 는 수많은 도커 컨테이너를 자동으로 관리해주는 완전 관리형 서비스이다.
+#### ECS, EKS 모두 오픈 소스이고, AWS 에서 사용 가능하도록 하는 것이다.
 ![image](https://user-images.githubusercontent.com/62974484/186072940-a0c6178a-f03a-422f-b553-8654a107d9c5.png) <br/>
 ![image](https://user-images.githubusercontent.com/62974484/186072972-d2eb3a20-3570-4743-bbea-b4a7e57c6676.png)
 
