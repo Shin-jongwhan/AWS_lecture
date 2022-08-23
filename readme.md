@@ -52,4 +52,30 @@
 ### <br/><br/><br/>
 
 ## 클라우드 컴퓨팅의 이점
+### CDN : content delivery network. 네트워킹 및 컨텐츠 전송
+### SQL : 정형, 관계형 DB (RDS). 6개의 관계형 DB - 오라클, MS 의 msequal, MySQL, 마리아DB, AWS 의 오로라 등...
+### NoSQL : 비정형, 비관계형 DB. 몽고DB
+### 빅데이터는 비관계형 DB 를 선호한다.
+![image](https://user-images.githubusercontent.com/62974484/186051686-6067599b-b4f4-4b80-9a3e-571fcfbec6ec.png) <br/>
+![image](https://user-images.githubusercontent.com/62974484/186051697-d02a8e7f-3f91-4236-950c-480eab21e427.png) <br/>
 
+
+### <br/><br/><br/>
+
+## 모듈 2. 클라우드 컴퓨팅
+### 다이나모 데이터베이스
+#### 아마존을 생각해보자. 장바구니 넣는 거 insert, 바꾸는 거 update, 장바구니에서 없애는 거 delete. 수많은 사람들이 이렇게 하는데 이거를 latency 를 해결해야 한다.
+#### 지연 시간을 해결해주는 방법? 이 다이나모 데이터베이스이다.
+#### 작은 것은 지연 시간을 1 ms (1000분의 1초) 이내로 구현한다.
+#### 서비스당 지연 시간, 사이즈 당 지연 시간 등을 구현한다.
+#### <br/>
+### EC2 cloud (elastic computing 2 cloud)
+#### elastic : 융통성과 비슷함. 붙였다가 뗐다가 할 수 있는 것.
+#### 가상 서버
+#### IOPS : input output per sec. 읽기 - input / 쓰기 - output. EC2 cloud 를 사용할 때 고려해야 할 점이다.
+#### AMI : amazon machine image. VM 의 image 와 같다. 크게 리눅스나 윈도우 image 가 있다. 
+#### 그리고는 인스턴스 유형을 고른다. t 타입 r 타입 ...
+#### region 을 AZ 2개 이상으로 하는 이유 : 한 개 AZ 에서 DB 가 망가지면 안 되니까,, 백업용. 두 개 이상의 AZ 에 동시에 복사하는 미러링도 가능하다. 리소스가 없을 때 다른 AZ 를 쓴다.
+#### 
+
+### <br/><br/><br/>
