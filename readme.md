@@ -197,6 +197,23 @@ https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introdu
 ### filesystem 은 네트워크로 연결되어 있어 다른 AZ 에서도 이용가능하다.
 ### 그래서 데이터 볼륨에 따라, 사용 용도에 따라 filesystem 을 쓸지 결정한다.
 ### 리눅스 AMI 를 고르면 EFS 파일시스템, 윈도우 AMI 를 고르면 FSX 파일시스템을 선택한다.
+![image](https://user-images.githubusercontent.com/62974484/186096681-382f78f4-8ca2-4a31-ba6d-c740b30d676f.png) <br/>
+![image](https://user-images.githubusercontent.com/62974484/186096766-b5857c3a-5231-4487-aecf-0879729b9a6c.png)
+
+### <br/><br/><br/>
+
+## 데이터베이스
+### DB 는 SQL, NoSQL 두 가지로 나뉜다.
+### SQL : 정형, 관계형 DB (RDS). 6개의 관계형 DB - 오라클, MS 의 msequal, MySQL, 마리아DB, AWS 의 오로라, postgreSQL
+#### SQL 은 sql 로 쿼리하도록 국제적으로 정해져 있음
+### <br/>
+### NoSQL : 비정형, 비관계형 DB. 몽고DB
+#### json, 동영상 등
+### <br/>
+### AWS 에서는 6개의 RDS (관계형 데이터베이스 서비스)를 지원. 완전 관리형이다.
+### <br/>
+### DMS (DB migragion service) : DB 를 다른 서버로 마이그레이션할 때 이용하는 서비스. DB 엔진이 다를 때도 가능하지만 에러가 엄청 많이 날 거다 라고 설명.
+
 
 ### <br/><br/><br/>
 
