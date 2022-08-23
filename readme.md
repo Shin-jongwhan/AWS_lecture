@@ -39,3 +39,7 @@
 
 ### <br/><br/><br/>
 
+## 모듈 1. AWS 소개
+### 중요 키워드 : 온-디멘드
+![image](https://user-images.githubusercontent.com/62974484/186046258-3de7a808-733a-468a-865d-57960d0ea093.png)
+![image](https://user-images.githubusercontent.com/62974484/186046315-573146d9-d891-43bd-a22b-9bc0a1df8472.png)
