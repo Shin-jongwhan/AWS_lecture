@@ -44,9 +44,12 @@
 ### on-demand : 사용한 만큼 과금, 사용할 만큼 제공
 ### on-premise : 애완동물과 같다? 프라이빗 서버
 ### 회사들은 특정 월마다 서버 사용률이 피크를 찍는 경우가 있다. 이 수요를 해결해주기 위해 AWS 가 지원해준다. -> 확장성. 
+### AWS 는 API 로 소통한다.
 ![image](https://user-images.githubusercontent.com/62974484/186046258-3de7a808-733a-468a-865d-57960d0ea093.png)
 ![image](https://user-images.githubusercontent.com/62974484/186046315-573146d9-d891-43bd-a22b-9bc0a1df8472.png)
 ### 프로비저닝 : 온 디멘드와 같은 개념
 
+### <br/><br/><br/>
 
+## 클라우드 컴퓨팅의 이점
 
