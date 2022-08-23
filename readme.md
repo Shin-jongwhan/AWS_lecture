@@ -191,7 +191,7 @@ https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introdu
 
 ## 스토리지
 ### filesystem, block level, object level 스토리지 타입이 있다.
-### object 에는 S3 가 포함된다. 한 파일을 object 라고 하며 한 object 당 5 TB 미만이어야 하고, 최대 용량은 정해지지 않았다. 다만 자주 엑세스하지 않아도 다른 스토리지보다 요금이 비싸다.
+### object 에는 S3 가 포함된다. 한 파일을 object 라고 하며 한 object 당 5 TB 미만이어야 하고, 최대 용량은 정해지지 않았다. 다만 자주 엑세스하지 않아도 다른 스토리지보다 요금이 비싸다. 데이터를 get 할 때도 과금.
 ### block 은 인스턴스 내에서 EBS 라는 외장하드와 같은 스토리지를 할당하며 최대 16 TB 를 할당해준다. 저장된 용량 당 과금하고 write, read 할 때 요금이 싸다.
 #### EBS 는 인스턴스가 설치된 AZ 안에서만 엑세스할 수 있다.
 ### filesystem 은 네트워크로 연결되어 있어 다른 AZ 에서도 이용가능하다.
