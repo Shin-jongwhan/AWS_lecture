@@ -31,6 +31,7 @@
 #### 라우팅 테이블에 in-bound 를 거부하게 하는 룰을 만든다. 그리고 NAT 를 설정하여 프라이빗과 퍼블릭이 소통할 수 있게 만든다. 
 ##### NAT 설명
 https://docs.microsoft.com/ko-kr/azure/rtos/netx-duo/netx-duo-nat/chapter1
+![image](https://user-images.githubusercontent.com/62974484/186080370-8acc407e-abaf-434a-8514-ce4d5cb332ff.png) <br/> 
 ### <br/>
 
 ### IGW (internet gateway) 를 통해 VPC 바깥과 소통한다. 나가는 것을 out-bound, 들어오는 것을 in-bound 라고 한다.
