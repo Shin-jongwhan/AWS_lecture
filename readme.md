@@ -7,6 +7,7 @@
 #### https://online.vitalsource.com/reader/books/100-ACPEXX-30-KO-SG-E/pageid/0
 ![image](https://user-images.githubusercontent.com/62974484/186045517-77d8368d-eae4-49a1-956e-3f4d71fb0ec1.png)
 
+### <br/><br/><br/>
 
 ### certification
 #### https://aws.amazon.com/ko/certification/
@@ -22,7 +23,7 @@
 ### RDS : relational DB service (MySQL 등의 6개 관계형 DB) 를 지원해주는 서비스. 소개만 하고 이번 강의에서는 자세히 다루지는 않음
 ### <br/>
 
-### 클라우드 컴퓨팅이란
+## 모듈 2. 클라우드 컴퓨팅이란
 #### 서버에서 할당된 인스턴스의 CPU, 메모리를 말함
 ### on-premise 데이터 서버
 ### 퍼블릭 클라우드 : = 인터넷, AWS 와 같이 벤더들이 퍼블릭하게 제공하는 클라우드. 알리바바 등도 있음.
@@ -30,4 +31,11 @@
 ### 하이브리드 클라우드 : 퍼블릭 + 프라이빗
 ### AWS 에는 outposts 라고 퍼블릭 클라우드 말고 따로 서버를 데이터 센터 안에 서버를 들이는 서비스도 있다. 보안에 중요한 국방부 등에서 이용하기도 한다.
 ### <br/>
+
+### 모듈 7. 모니터링 및 분석
+#### 사용한 만큼 낼 수 있게 함
+#### 시간마다 사용률 확인 -> 리소스에 맞게끔 스케일을 더 늘릴지 줄일지 결정 -> 오토스케일링한다 라고 함
+#### 확장성, 가용성, 내구성 크게 3가지를 충족하게 함
+
+### <br/><br/><br/>
 
