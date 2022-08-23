@@ -226,10 +226,13 @@ https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introdu
 #### 권한은 root 가 가장 쎄며, 중간 관리자 급인 admin 을 둔다.
 #### root 는 OTP 와 같은 MFA (multi-factor authorization) 을 준다.
 #### 예를 들어 user 가 DB 에 엑세스를 할 때 제한해주는 것
+### <br/>
 ### 공동 책임 모델
 #### AWS 를 이용하는 고객도 보안 관련한 설정은 고객이 설정해줘야 하는 것이기 때문에 공동 책임이 있다. 그리고 이러한 것은 회사가 그러한 정책을 관리하는 것이기 떄문에도 있다.
+### <br/>
 ### KMS  key management system
 #### DB 를 암호화해준다. 읽을 때 자동으로 복호화한다.
+### <br/>
 ### 한 달 정도의 텀으로 자동 백업도 되는데 수동 백업도 권장한다.
 
 ### <br/><br/><br/>
