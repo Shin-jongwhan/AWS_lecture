@@ -4,6 +4,8 @@
 
 ### 실습 없이 듣는 과정
 ### 강의 자료(향후 2년 동안 엑세스 가능)
+### 엑세스 코드
+#### KUMPGJHYTPGXZ6GGPQQW
 #### https://online.vitalsource.com/reader/books/100-ACPEXX-30-KO-SG-E/pageid/0
 ![image](https://user-images.githubusercontent.com/62974484/186045517-77d8368d-eae4-49a1-956e-3f4d71fb0ec1.png)
 
@@ -214,6 +216,17 @@ https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introdu
 ### <br/>
 ### DMS (DB migragion service) : DB 를 다른 서버로 마이그레이션할 때 이용하는 서비스. DB 엔진이 다를 때도 가능하지만 에러가 엄청 많이 날 거다 라고 설명.
 
+### <br/><br/><br/>
+
+## 보안
+### IAM : identity access management
+#### 인증 / 권한을 주는 
+#### 예를 들어 user 가 DB 에 엑세스를 할 때 제한해주는 것
+### 공동 책임 모델
+#### AWS 를 이용하는 고객도 보안 관련한 설정은 고객이 설정해줘야 하는 것이기 때문에 공동 책임이 있다. 그리고 이러한 것은 회사가 그러한 정책을 관리하는 것이기 떄문에도 있다.
+### KMS  key management system
+#### DB 를 암호화해준다. 읽을 때 자동으로 복호화한다.
+### 한 달 정도의 텀으로 자동 백업도 되는데 수동 백업도 권장한다.
 
 ### <br/><br/><br/>
 
