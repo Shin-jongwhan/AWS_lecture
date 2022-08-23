@@ -137,3 +137,15 @@
 ![image](https://user-images.githubusercontent.com/62974484/186072940-a0c6178a-f03a-422f-b553-8654a107d9c5.png) <br/>
 ![image](https://user-images.githubusercontent.com/62974484/186072972-d2eb3a20-3570-4743-bbea-b4a7e57c6676.png)
 
+### <br/><br/><br/>
+
+## 글로벌 인프라 및 안정성
+### cloudfront : CDN, chaching. 처음 배포판을 설치할 때 드는 시간적 비용?
+#### Amazon CloudFront는 .html, .css, .js 및 이미지 파일과 같은 정적 및 동적 웹 콘텐츠를 사용자에게 더 빨리 배포하도록 지원하는 웹 서비스입니다.
+https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
+### WAF : 보안. 파이어월
+### shield : DDOS 공격 완화
+### Route53 : AWS 전용 랜선. 한국에는 5개 통신사와 제휴해서 전용선을 깔았다고 한다.
+
+### <br/><br/><br/>
+
