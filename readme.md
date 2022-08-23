@@ -29,7 +29,7 @@
 #### 이렇게 구성한 다음 subnet 을 구성할 수 있다. 예를 들어 subnet 이 4개 있으면 IP 를 잘라서 각 subnet 4개에 할당해준다.
 #### VPC 는 프라이빗, 퍼블릭 망 이렇게 나눌 수 있다. 외부와 소통할 수 있는 건 퍼블릭. DB 와 같이 개발자들이 볼 수 있는 건 프라이빗.
 #### 라우팅 테이블에 in-bound 를 거부하게 하는 룰을 만든다. 그리고 NAT 를 설정하여 프라이빗과 퍼블릭이 소통할 수 있게 만든다. 
-##### NAT 설명
+#### NAT 설명
 https://docs.microsoft.com/ko-kr/azure/rtos/netx-duo/netx-duo-nat/chapter1
 ![image](https://user-images.githubusercontent.com/62974484/186080370-8acc407e-abaf-434a-8514-ce4d5cb332ff.png) <br/> 
 ### <br/>
