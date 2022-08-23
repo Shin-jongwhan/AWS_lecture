@@ -75,8 +75,11 @@
 #### IOPS : input output per sec. 읽기 - input / 쓰기 - output. EC2 cloud 를 사용할 때 고려해야 할 점이다.
 #### AMI : amazon machine image. VM 의 image 와 같다. 크게 리눅스나 윈도우 image 가 있다. 
 #### 그리고는 인스턴스 유형을 고른다. t 타입 r 타입 ...
+##### 범용은 t, m 타입. 컴퓨팅(CPU 가 더 많음)은 c. 메모리가 더 많은 건 r. 스토리지는 d.
 #### 사이즈를 고른다. micro, 2XL .... CPU core 몇 개와 메모리 얼마를 쓸 것인지 고르는 것이다.
 #### region 을 AZ 2개 이상으로 하는 이유 : 한 개 AZ 에서 DB 가 망가지면 안 되니까,, 백업용. 두 개 이상의 AZ 에 동시에 복사하는 미러링도 가능하다. 리소스가 없을 때 다른 AZ 를 쓴다.
 #### region 의 가격은 해당 도시의 땅값, 전기세 등으 고래하기 때문에 가격이 달라진다.
+![image](https://user-images.githubusercontent.com/62974484/186058095-c47c79c3-11ed-4605-bb0b-496b829514d0.png)
+
 
 ### <br/><br/><br/>
