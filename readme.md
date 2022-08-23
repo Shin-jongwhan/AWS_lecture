@@ -23,7 +23,7 @@
 
 ### region 을 구성하기 전에 AZ 를 묶는 게 중간에 하나 더 있는데, VPC 라는 사설망이 있다. 
 ### IGW (internet gateway) 를 통해 VPC 바깥과 소통한다. 나가는 것을 out-bound, 들어오는 것을 in-bound 라고 한다.
-### ELB : 고객이 트래픽을 발생시키면 IGW 로 들어와서 ELB 가 그 트래픽(요청)을 중앙관리해주고 각각의 서비스를 가진 인스턴스가 잘 켜져 있는지 체크한 후 트래픽을 넘겨준다.
+### ELB : 고객이 트래픽을 발생시키면 IGW 로 들어와서 ELB 가 그 트래픽(요청)을 중앙관리해주고 각각의 서비스(DB, app...)를 가진 인스턴스가 잘 켜져 있는지 체크한 후 트래픽을 넘겨준다.
 ### ELB 는 인스턴스가 잘 켜져 있는지 주기적으로 체크한다.
 ### 또한 ELB 는 사용률을 체크하여 autoscaling 을 해준다.
 [EC2 autoscaling](#EC2-autoscaling)
@@ -140,12 +140,15 @@
 ### <br/><br/><br/>
 
 ## 글로벌 인프라 및 안정성
-### cloudfront : CDN, chaching. 처음 배포판을 설치할 때 드는 시간적 비용?
+### cloudfront : CDN, chaching
+#### 오리지널 region 에 컨텐츠가 있고, 각 region 에 캐싱하여 어디에 오리지날 데이터가 있다고 알려주는 '배포'를 해준다.
 #### Amazon CloudFront는 .html, .css, .js 및 이미지 파일과 같은 정적 및 동적 웹 콘텐츠를 사용자에게 더 빨리 배포하도록 지원하는 웹 서비스입니다.
+#### 엣지 로케이션 : 더 가까운 지역의 region 을 사용하게 해서 더 빠르게 전송
 https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
 ### WAF : 보안. 파이어월
 ### shield : DDOS 공격 완화
 ### Route53 : AWS 전용 랜선. 한국에는 5개 통신사와 제휴해서 전용선을 깔았다고 한다.
+### API 로 통신 : 관리 콘솔, CLI, SDK 등 어느 것으로 써도 소통할 수 있게 함
 
 ### <br/><br/><br/>
 
