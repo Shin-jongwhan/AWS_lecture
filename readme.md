@@ -220,7 +220,11 @@ https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introdu
 
 ## 보안
 ### IAM : identity access management
-#### 인증 / 권한을 주는 
+#### 인증 / 권한을 주는 것
+#### 크게 user, user group, role (임시자격증명), json 형태의 policy 가 있다.
+#### role 은 임시로 자격을 주는 것이다. 예를 들어 7일 동안만 일하는 사람에게 7일 동안만 이용 가능하게 권한을 주는 것이다.
+#### 권한은 root 가 가장 쎄며, 중간 관리자 급인 admin 을 둔다.
+#### root 는 OTP 와 같은 MFA (multi-factor authorization) 을 준다.
 #### 예를 들어 user 가 DB 에 엑세스를 할 때 제한해주는 것
 ### 공동 책임 모델
 #### AWS 를 이용하는 고객도 보안 관련한 설정은 고객이 설정해줘야 하는 것이기 때문에 공동 책임이 있다. 그리고 이러한 것은 회사가 그러한 정책을 관리하는 것이기 떄문에도 있다.
