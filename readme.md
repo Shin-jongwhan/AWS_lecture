@@ -27,6 +27,7 @@
 ### ELB 는 인스턴스가 잘 켜져 있는지 주기적으로 체크한다.
 ### 또한 ELB 는 사용률을 체크하여 autoscaling 을 해준다.
 [EC2 autoscaling](#EC2-autoscaling)
+![image](https://user-images.githubusercontent.com/62974484/186070658-10aaf5bb-e21e-4d89-bfb5-0e45c4dee0e5.png)
 ### response 200 이 뜨는지 체크한다.
 ### <br/>
 
