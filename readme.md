@@ -234,6 +234,19 @@ https://docs.aws.amazon.com/ko_kr/AmazonCloudFront/latest/DeveloperGuide/Introdu
 #### DB 를 암호화해준다. 읽을 때 자동으로 복호화한다.
 ### <br/>
 ### 한 달 정도의 텀으로 자동 백업도 되는데 수동 백업도 권장한다.
+### <br/>
+### organization
+#### 조직을 구성하여 인증 / 권한을 어떻게 줄지 구성할 수 있는 기능이다. 실제 권한 업무를 맡으면 주요하게 쓰는 기능이다.
+
+### <br/><br/><br/>
+
+## 규정 준수
+### 다양한 세계 규정을 지원하고 규정을 준수한다 정도로 넘어감.
+
+### <br/><br/><br/>
+
+## AWF
+### ACL : 웹 엑세스 제어 목록. 요청에 대한 filtering 한다.
 
 ### <br/><br/><br/>
 
