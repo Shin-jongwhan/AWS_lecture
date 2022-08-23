@@ -22,10 +22,24 @@
 ### <br/>
 
 ### region 을 구성하기 전에 AZ 를 묶는 게 중간에 하나 더 있는데, VPC 라는 사설망이 있다. 
+### IPv4 xxx.xxx.xxx.xxx 가 있다. VPC 는 기본적으로 IPv4 로 구성한다. 프라이빗 IP 이다.
+#### A 클래스 : 첫 8비트(xxx.)를 고정한다. 그리고 나머지 24 비트를 사용한다.
+#### B 클래스는 16 비트(xxx.xxx)를 고정, C 는 24 비트(xxx.xxx.xxx)를 고정한다.
+#### 10.0.0.0/24 로 표현되어 있으면 24 비트는 고정되어 있다는 말이다.
+#### 이렇게 구성한 다음 subnet 을 구성할 수 있다. 예를 들어 subnet 이 4개 있으면 IP 를 잘라서 각 subnet 4개에 할당해준다.
+#### VPC 는 프라이빗, 퍼블릭 망 이렇게 나눌 수 있다. 외부와 소통할 수 있는 건 퍼블릭. DB 와 같이 개발자들이 볼 수 있는 건 프라이빗.
+#### 라우팅 테이블에 in-bound 를 거부하게 하는 룰을 만든다. 그리고 NAT 를 설정하여 프라이빗과 퍼블릭이 소통할 수 있게 만든다. 
+##### NAT 설명
+https://docs.microsoft.com/ko-kr/azure/rtos/netx-duo/netx-duo-nat/chapter1
+### <br/>
+
 ### IGW (internet gateway) 를 통해 VPC 바깥과 소통한다. 나가는 것을 out-bound, 들어오는 것을 in-bound 라고 한다.
 ### ELB : 고객이 트래픽을 발생시키면 IGW 로 들어와서 ELB 가 그 트래픽(요청)을 중앙관리해주고 각각의 서비스(DB, app...)를 가진 인스턴스가 잘 켜져 있는지 체크한 후 트래픽을 넘겨준다.
 ### ELB 는 인스턴스가 잘 켜져 있는지 주기적으로 체크한다.
 ### 또한 ELB 는 사용률을 체크하여 autoscaling 을 해준다.
+### VGW : virtual gateway. AWS의 사설망이다.
+### CGW : 개인 서버의 인터넷 망이며 CGW 라고 한다.
+### 하이브리드 클라우드를 만드려면 VGW, CGW 를 연결하는데 VPN 으로 연결한다.
 [EC2 autoscaling](#EC2-autoscaling)
 ![image](https://user-images.githubusercontent.com/62974484/186070658-10aaf5bb-e21e-4d89-bfb5-0e45c4dee0e5.png) <br/>
 ![image](https://user-images.githubusercontent.com/62974484/186077957-1a40ad04-4218-4b67-9f79-716bcaf23f4b.png)
