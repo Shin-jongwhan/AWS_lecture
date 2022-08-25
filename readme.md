@@ -52,7 +52,7 @@ https://docs.microsoft.com/ko-kr/azure/rtos/netx-duo/netx-duo-nat/chapter1
 ### <br/>
 
 ### 클라우드는 대표적인 서비스로 EC2 가 있고 EC2 인스턴스(가상 서버)라고 함
-### RDS : relational DB service (MySQL 등의 6개 관계형 DB) 를 지원해주는 서비스. 소개만 하고 이번 강의에서는 자세히 다루지는 않음
+### RDS : relational DB service. MySQL 등의 6개 관계형 DB 를 지원해주는 서비스. 소개만 하고 이번 강의에서는 자세히 다루지는 않음
 ### <br/>
 
 ## 모듈 2. 클라우드 컴퓨팅이란
