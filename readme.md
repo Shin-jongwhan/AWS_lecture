@@ -4,9 +4,7 @@
 
 ### 실습 없이 듣는 과정
 ### 강의 자료(향후 2년 동안 엑세스 가능)
-### 엑세스 코드
-#### KUMPGJHYTPGXZ6GGPQQW
-#### https://online.vitalsource.com/reader/books/100-ACPEXX-30-KO-SG-E/pageid/0
+### 엑세스 코드 : 개인 보관
 ![image](https://user-images.githubusercontent.com/62974484/186045517-77d8368d-eae4-49a1-956e-3f4d71fb0ec1.png)
 
 ### <br/><br/><br/>
